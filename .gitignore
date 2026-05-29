@@ -1,11 +1,24 @@
-# Visual Studio 2015 user specific files
-.vs/
+# Unreal build output
+[UNREAL_PROJECT_FOLDER]/Binaries/
+[UNREAL_PROJECT_FOLDER]/Build/
+[UNREAL_PROJECT_FOLDER]/Intermediate/
+[UNREAL_PROJECT_FOLDER]/Saved/
+[UNREAL_PROJECT_FOLDER]/DerivedDataCache/
+[UNREAL_PROJECT_FOLDER]/FileOpenOrder/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Compiled files
+*.pdb
+*.exp
+*.lib
+
+# Exclude packaged builds
+*.pak
+*.sig
 
 # Precompiled Headers
 *.gch
