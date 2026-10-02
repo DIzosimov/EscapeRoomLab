@@ -2,7 +2,7 @@
 
 ## Summary
 
-EscapeRoomLab is an Unreal Engine 5 C++ project for practising gameplay fundamentals with clean actor and component design. The gameplay classes are a pickup base class (`PickupBase.h`), a key ring (`KeyRing.h`), light switches (`LightSwitch.h`) and doors (`Door.h`), which are the building blocks of an escape room. The doors are Timeline-driven. The project also carries the Unreal third-person template's character, game mode and player controller, plus its `Variant_Combat`, `Variant_Platforming` and `Variant_SideScrolling` folders.
+EscapeRoomLab is an Unreal Engine 5 C++ project for practising gameplay fundamentals with clean actor and component design. The gameplay classes are a pickup base class (`PickupBase.h`), a key ring (`KeyRing.h`), light switches (`LightSwitch.h`) and doors (`Door.h`), which are the building blocks of an escape room. The door-opening mechanism is not yet verified from the code (see Assumptions in projects-update.md). The project also carries the Unreal third-person template's character, game mode and player controller, plus its `Variant_Combat`, `Variant_Platforming` and `Variant_SideScrolling` folders.
 
 ## Role
 
@@ -12,7 +12,7 @@ Creator and developer.
 
 - Unreal Engine 5
 - C++ (modules under `EscapeRoomLab/Source/EscapeRoomLab`, with `Public` and `Private` folders)
-- Timelines for door swings
+- Door mechanism not yet verified (class is `Door.h`; whether it uses Timelines wasn't confirmed from the code)
 
 ## Setup / Run
 
